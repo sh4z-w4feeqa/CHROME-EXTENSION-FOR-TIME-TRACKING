@@ -1,1 +1,14 @@
-# PRODUCTIVITY-CHROME-EXTENSION
+# PRODUCTIVITY-TRACKER (Chrome Extension)
+*COMPANY* : CodTech IT Solutions
+
+*NAME*: Shaziya Wafeeqa S
+
+*INTERN ID*: CT12DF710
+
+*DOMAIN*: Full Stack Development
+
+*DURATION*: 12 Weeks
+
+*MENTOR*: NEELA SANTHOSH
+
+# OUTPUT
