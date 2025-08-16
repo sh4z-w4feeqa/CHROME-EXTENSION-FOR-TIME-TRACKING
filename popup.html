@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 15px;
+      background-color: #f4f4f9;
+      color: #333;
+      min-width: 300px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    h2, h3 {
+      font-size: 18px;
+      text-align: center;
+      color: #2c3e50;
+      margin: 10px 0;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+    }
+
+    .summary {
+      margin-bottom: 12px;
+      font-size: 14px;
+      text-align: left;
+    }
+    .summary-item {
+      margin: 2px 0;
+    }
+    .summary-item.productive { color: #27ae60; }
+    .summary-item.unproductive { color: #c0392b; }
+    .summary-item.neutral { color: #7f8c8d; }
+
+    .entry {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      align-items: center;
+      margin-bottom: 8px;
+      padding: 6px;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+      width: 100%;
+      column-gap: 6px;
+    }
+    .entry:nth-child(odd) { background-color: #f9f9f9; }
+
+    .site-name {
+      font-weight: bold;
+      color: #2980b9;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .category {
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 3px;
+      color: white;
+      justify-self: center;
+      text-align: center;
+    }
+    .category.productive { background-color: #27ae60; }
+    .category.unproductive { background-color: #c0392b; }
+    .category.neutral { background-color: #7f8c8d; }
+
+    .time {
+      font-size: 14px;
+      font-family: monospace;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    button {
+      width: 150px;
+      padding: 8px 0;
+      background-color: #118c30;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 5px;
+      margin: 8px auto;
+      display: block;
+    }
+
+    /* Different hover colors */
+    #reset:hover { background-color: #c0392b; }
+    #weeklyReset:hover { background-color: #0d6d25; }
+  </style>
+</head>
+<body>
+  <h2>Time Tracked</h2>
+
+  <h3>This Week</h3>
+  <div id="time"></div>
+
+  <h3>Last Week Report (<span id="last-week-date"></span>)</h3>
+  <div id="weekly-report"></div>
+
+  <!-- Buttons -->
+  <button id="reset">Reset Data</button>
+  <button id="weeklyReset">Force Weekly Reset</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
