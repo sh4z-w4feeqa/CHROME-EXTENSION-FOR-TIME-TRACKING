@@ -1,7 +1,7 @@
 # PRODUCTIVITY-TRACKER (Chrome Extension)
 *COMPANY* : CodTech IT Solutions
 
-*NAME*: Shaziya Wafeeqa S
+*NAME*: Shaziya Wafeeqa S 
 
 *INTERN ID*: CT12DF710
 
