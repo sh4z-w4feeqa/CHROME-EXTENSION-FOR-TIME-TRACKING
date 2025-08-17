@@ -18,6 +18,7 @@ The Time Tracker Chrome Extension is a productivity-enhancing tool designed to m
 **Tools and Technologies Used**
 
 _JavaScript:_
+
 JavaScript is the core programming language used for both the background logic and the popup interface. It manages tab activity, calculates time spent on each website, and dynamically updates the user interface. Asynchronous programming with Promises and event listeners ensures smooth, real-time data handling without blocking the browser’s operations.
 
 _Chrome Extensions API:_
