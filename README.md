@@ -45,6 +45,7 @@ The popup interface is developed with HTML and CSS, providing a clean, user-frie
 * Green for productive,
 * Red for unproductive, and
 * Gray for neutral
+
 This allows users to quickly visualize their browsing behavior and act accordingly.
 
 _Time Management Logic:_
