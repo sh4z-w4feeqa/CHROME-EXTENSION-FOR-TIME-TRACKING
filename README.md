@@ -23,15 +23,15 @@ JavaScript is the core programming language used for both the background logic a
 _Chrome Extensions API_
 The project relies heavily on the Chrome Extensions API, which provides access to browser tabs, storage, alarms, and web navigation events. Key APIs used include:
 
-*chrome.tabs for detecting active tabs and tab switches.
+* chrome.tabs for detecting active tabs and tab switches.
 
-*chrome.webNavigation to track page loads and updates.
+* chrome.webNavigation to track page loads and updates.
 
-*chrome.storage.local for persisting time-tracking data across sessions.
+* chrome.storage.local for persisting time-tracking data across sessions.
 
-*chrome.alarms for automating weekly data archiving and resets.
+* chrome.alarms for automating weekly data archiving and resets.
 
-*chrome.runtime for messaging between background scripts and popup interfaces.
+* chrome.runtime for messaging between background scripts and popup interfaces.
 
 _Manifest V3_
 The extension is built using Manifest Version 3, the latest Chrome standard, which introduces service workers for background scripts, improved security, and more efficient resource management.
