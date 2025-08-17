@@ -13,7 +13,7 @@
 
 # PROJECT DESCRIPTION
 
-The Time Tracker Chrome Extension is a productivity-enhancing tool designed to monitor and analyze how users spend their time on various websites. It enables users to distinguish between productive, unproductive, and neutral online activities, providing a detailed weekly and historical report of their browsing habits. This extension used modern web technologies to deliver real-time tracking and insights directly within the browser, helping users improve focus, manage distractions, and optimize workflow.
+This Productivity Tracker Chrome Extension is a productivity-enhancing tool designed to monitor and analyze how users spend their time on various websites. It enables users to distinguish between productive, unproductive, and neutral online activities, providing a detailed weekly and historical report of their browsing habits. This extension used modern web technologies to deliver real-time tracking and insights directly within the browser, helping users improve focus, manage distractions, and optimize workflow.
 
 **Tools and Technologies Used**
 
@@ -70,7 +70,7 @@ Weekly data is automatically archived and reset via Chrome alarms. This ensures 
 
 **Real-Life Usage and Applications**
 
-The Time Tracker extension has numerous practical applications:
+The Productivity Tracker extension has numerous practical applications:
 
 * _Productivity Management:_ Helps remote workers, students, and professionals monitor and optimize their browsing habits.
 
@@ -84,7 +84,7 @@ This extension can also be expanded for organizational use, allowing teams to an
 
 **Conclusion**
 
-In conclusion, the Time Tracker Chrome Extension combines Chrome Extensions API, JavaScript, HTML, and CSS to create a robust, real-time monitoring tool. Its intuitive design, automated reporting, and categorization system make it ideal for individuals aiming to improve productivity and maintain focus. Beyond personal use, it demonstrates how browser extensions can provide actionable insights into digital behavior, bridging the gap between technology usage and time management efficiency.
+In conclusion, the Productivity Tracker Chrome Extension combines Chrome Extensions API, JavaScript, HTML, and CSS to create a robust, real-time monitoring tool. Its intuitive design, automated reporting, and categorization system make it ideal for individuals aiming to improve productivity and maintain focus. Beyond personal use, it demonstrates how browser extensions can provide actionable insights into digital behavior, bridging the gap between technology usage and time management efficiency.
 
 # OUTPUT
 <img width="1720" height="963" alt="Image" src="https://github.com/user-attachments/assets/e2f141c6-ec61-487c-b626-bad755a5d6f8" />
