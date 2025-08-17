@@ -17,10 +17,10 @@ The Time Tracker Chrome Extension is a productivity-enhancing tool designed to m
 
 **Tools and Technologies Used**
 
-_JavaScript_
+_JavaScript:_
 JavaScript is the core programming language used for both the background logic and the popup interface. It manages tab activity, calculates time spent on each website, and dynamically updates the user interface. Asynchronous programming with Promises and event listeners ensures smooth, real-time data handling without blocking the browser’s operations.
 
-_Chrome Extensions API_
+_Chrome Extensions API:_
 
 The project relies heavily on the Chrome Extensions API, which provides access to browser tabs, storage, alarms, and web navigation events. Key APIs used include:
 
@@ -40,7 +40,11 @@ The extension is built using Manifest Version 3, the latest Chrome standard, whi
 
 _HTML and CSS:_
 
-The popup interface is developed with HTML and CSS, providing a clean, user-friendly dashboard. CSS Grid and flexbox layouts are used for structured display of website names, categories, and time spent. Color-coded categories (green for productive, red for unproductive, gray for neutral) allow users to quickly visualize their browsing behavior.
+The popup interface is developed with HTML and CSS, providing a clean, user-friendly dashboard. CSS Grid and flexbox layouts are used for structured display of website names, categories, and time spent. The categories are colour coded in the following manner:
+* Green for productive,
+* Red for unproductive, and
+* Gray for neutral
+This allows users to quickly visualize their browsing behavior and act accordingly.
 
 _Time Management Logic:_
 
