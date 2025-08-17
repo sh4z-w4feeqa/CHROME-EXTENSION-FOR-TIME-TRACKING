@@ -83,6 +83,18 @@ The Productivity Tracker extension has numerous practical applications:
 
 This extension can also be expanded for organizational use, allowing teams to analyze collective time allocation across different work-related and non-work-related websites.
 
+**Challenges Faced**
+
+* _Tab Tracking:_ Accurately detecting active tabs and tracking time spent while handling tab switches and closures.
+
+* _Data Storage:_ Persisting user data using Chrome Storage API and handling weekly resets without losing history.
+
+* _Categorization Logic:_ Correctly classifying sites as productive, unproductive, or neutral, including edge cases.
+
+* _Event Handling:_ Managing multiple Chrome events like onActivated, onRemoved, and webNavigation.onCompleted efficiently.
+
+* _Responsive UI:_ Displaying weekly summaries and history dynamically while keeping the popup lightweight and readable.
+
 **Conclusion**
 
 In conclusion, the Productivity Tracker Chrome Extension combines Chrome Extensions API, JavaScript, HTML, and CSS to create a robust, real-time monitoring tool. Its intuitive design, automated reporting, and categorization system make it ideal for individuals aiming to improve productivity and maintain focus. Beyond personal use, it demonstrates how browser extensions can provide actionable insights into digital behavior, bridging the gap between technology usage and time management efficiency.
